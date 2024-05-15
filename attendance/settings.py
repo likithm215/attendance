@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'auth'
+    'auth_log'
 ]
 
 MIDDLEWARE = [
@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'attendance.urls'
+ROOT_URLCONF = 'auth_log.urls'
 
 TEMPLATES = [
     {
